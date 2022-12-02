@@ -13,4 +13,4 @@ from
    customer_orders 
 where
    o_orderkey is null 
-   and c_acctbal > 5000
+   and c_acctbal >= 5000
