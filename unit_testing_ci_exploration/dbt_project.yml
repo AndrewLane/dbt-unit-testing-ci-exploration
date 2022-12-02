@@ -36,3 +36,10 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+vars:
+  unit_tests_config:
+    input_format: "csv"
+    column_separator: "|"
+    line_separator: "\n"
+    type_separator: "::"
